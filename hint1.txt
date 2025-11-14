@@ -1,1 +1,0 @@
-Hint 1: Look where old lines live. Commit messages might help.
