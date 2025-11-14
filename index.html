@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>SoulsTracker — Track your boss runs</title>
+    <link rel="stylesheet" href="static/css/style.css">
+  </head>
+  <body>
+    <header>
+      <h1>SoulsTracker</h1>
+      <p class="tag">A lightweight tracker for boss attempts </p>
+    </header>
+
+    <main>
+      <section id="login">
+        <label>Display name <input id="displayName" placeholder="Your name"></label>
+        <button id="btnLogin">Enter</button>
+      </section>
+
+      <section id="tracker" class="hidden">
+        <form id="addRun">
+          <input id="boss" placeholder="Boss name" required>
+          <input id="time" placeholder="Time (mm:ss)" required>
+          <button>Add run</button>
+        </form>
+
+        <ul id="runs"></ul>
+      </section>
+    </main>
+
+    <footer>
+      <small>SoulsTracker — For tracking practice runs</small>
+    </footer>
+
+    <script src="static/js/app.js"></script>
+  </body>
+</html>

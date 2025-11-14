@@ -1,0 +1,14 @@
+:root{--bg:#0f1720;--card:#111827;--accent:#e11d48;--muted:#94a3b8;color-scheme:dark}
+*{box-sizing:border-box;font-family:Inter,ui-sans-serif,system-ui,Segoe UI,Roboto,'Helvetica Neue',Arial}
+body{margin:0;background:linear-gradient(180deg,#071022 0%,#081022 100%);color:#e6eef8}
+header{padding:24px;text-align:center}
+header h1{margin:0;font-size:1.6rem}
+.tag{color:var(--muted);margin-top:6px}
+main{max-width:780px;margin:20px auto;padding:12px}
+form{display:flex;gap:8px;margin-bottom:12px}
+input{padding:8px;border-radius:6px;border:1px solid #263445;background:#0b1620;color:inherit}
+button{background:var(--accent);color:white;border:none;padding:8px 12px;border-radius:6px}
+ul{list-style:none;padding:0}
+li{background:#08131a;padding:10px;margin-bottom:8px;border-radius:6px}
+.hidden{display:none}
+footer{text-align:center;padding:18px;color:var(--muted)}
